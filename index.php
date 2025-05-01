@@ -151,6 +151,8 @@ function splitSectionsSmartly($lines) {
             $collectingAddress = false;
         }
 
+
+        
         if ($collectingAddress) {
           
             $sections[$current_section][] = $line;
